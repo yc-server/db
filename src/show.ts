@@ -1,7 +1,7 @@
 import { Boom } from '@ycs/error';
 import { IContext } from '@ycs/interfaces';
 import * as _ from 'lodash';
-import { Document, PaginateModel, PaginateOptions, PaginateResult } from 'mongoose';
+import { Document, PaginateModel, PaginateOptions } from 'mongoose';
 
 /**
  * Showing a doc with an id form ctx.params.id

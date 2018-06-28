@@ -22,9 +22,3 @@ export function db(options: IModelOptions): PaginateModel<Document> {
     options.skipInit
   );
 }
-
-
-
-
-
-
