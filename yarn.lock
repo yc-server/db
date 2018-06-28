@@ -29,6 +29,10 @@
     "@types/connect" "*"
     "@types/node" "*"
 
+"@types/boom@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.npmjs.org/@types/boom/-/boom-7.2.0.tgz#19c36cbb5811a7493f0f2e37f31d42b28df1abc1"
+
 "@types/bson@*":
   version "1.0.9"
   resolved "https://registry.npmjs.org/@types/bson/-/bson-1.0.9.tgz#0a042ac50d879c4a842a269586162e12010f6ebd"
@@ -166,10 +170,11 @@
     lodash "^4.17.10"
     mongoose "^5.1.7"
 
-"@ycs/error@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@ycs/error/-/error-1.0.0.tgz#5c8ebb057d7a1b1e858d9a719c9f5fb5187d1b5d"
+"@ycs/error@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@ycs/error/-/error-1.0.1.tgz#df35934c855f5b3b571c16ac5f11643b64050c2c"
   dependencies:
+    "@types/boom" "^7.2.0"
     "@ycs/interfaces" "^1.0.1"
     boom "^7.2.0"
     colors "^1.3.0"
